@@ -1,0 +1,254 @@
+COPYRIGHT AND LICENSE NOTICE — PISO 13
+======================================
+
+Copyright (c) 2026 Jan Lamarca (Janiito Studio).
+All rights reserved / Todos los derechos reservados.
+
+Official website / Web oficial:
+- https://piso-13.janiito.com
+- https://janiito.com/piso13
+- https://studio.janiito.com
+
+------------------------------------------------------------------------
+1. ESPAÑOL — TÉRMINOS DE USO, PROPIEDAD INTELECTUAL Y LICENCIA
+------------------------------------------------------------------------
+
+1.1. Titularidad de la obra
+
+«Piso 13» incluye su código fuente y compilado, programas, archivos de
+datos, historia, guion, diálogos en español, catalán e inglés, personajes,
+universo narrativo de la «Residencia Aurora», diseño visual en pixel art,
+interfaz, logotipos, iconos, efectos de sonido y música.
+
+Los elementos originales creados por Jan Lamarca bajo el nombre Janiito
+Studio están protegidos por la legislación aplicable sobre propiedad
+intelectual.
+
+Los contenidos de terceros, incluidas determinadas músicas, sonidos,
+tipografías, librerías, recursos o materiales licenciados, pertenecen a sus
+respectivos autores, titulares o licenciantes.
+
+El hecho de que «Piso 13» sea gratuito o no tenga ánimo de lucro no elimina
+los derechos de terceros.
+
+Este repositorio no se publica bajo una licencia de software libre ni bajo
+una licencia de código abierto.
+
+1.2. Marca, nombre y logotipos
+
+Los nombres «Piso 13», «Janiito Studio» y «Jan Lamarca», así como sus
+logotipos, iconos y demás signos distintivos, quedan reservados para sus
+respectivos titulares.
+
+No se concede ningún derecho ni licencia para utilizar dichas marcas,
+nombres, logotipos o signos distintivos fuera de los usos permitidos en
+este documento.
+
+Los archivos incluidos en `/assets/images/` y `/assets/icons/` pueden
+contener materiales cuyos derechos correspondan a Jan Lamarca, Janiito
+Studio o terceros.
+
+1.3. Uso permitido de este repositorio público
+
+El contenido de este repositorio público se facilita para:
+
+- Consulta técnica, estudio personal y referencia educativa.
+- Observación y verificación del funcionamiento del programa dentro de los
+  límites permitidos por la ley.
+- Reporte de errores, sugerencias y comentarios a través de GitHub Issues
+  o del correo oficial (piso13@janiito.com).
+- Verificación de la versión publicada oficialmente en
+  https://piso-13.janiito.com.
+- Enlaces a la demo o a las páginas oficiales desde redes sociales,
+  páginas web, vídeos o directos, siempre que no se sugiera una relación
+  o autorización inexistente.
+- Citas, reseñas, críticas, usos docentes o de investigación cuando estén
+  permitidos por la legislación aplicable y se cumplan sus requisitos.
+
+Este permiso es personal, limitado, no exclusivo e intransferible. No
+implica una cesión de derechos de explotación.
+
+1.4. Restricciones
+
+Sin autorización previa y por escrito del titular de los derechos
+correspondientes, no está permitido:
+
+- Copiar, reproducir, publicar, redistribuir o poner a disposición del
+  público el juego, la demo, el código o sus archivos, total o parcialmente.
+- Alojar, resubir, clonar o publicar copias del juego en otros dominios,
+  servidores, repositorios, portales de juegos o tiendas digitales.
+- Incorporar el código, los archivos, los diálogos, los recursos o partes
+  sustanciales del proyecto a otro proyecto, producto, aplicación, juego o
+  software.
+- Adaptar, transformar o crear obras derivadas a partir del proyecto, salvo
+  cuando la ley lo permita o exista autorización.
+- Incrustar el juego mediante `<iframe>`, `<embed>` o sistemas equivalentes
+  en sitios web externos a `janiito.com` y sus subdominios (`*.janiito.com`).
+- Eliminar, ocultar o alterar los avisos de autoría, créditos, logotipos,
+  marcas de agua, avisos de demo o identificadores de compilación.
+- Eludir, desactivar o manipular las comprobaciones de dominio, integridad,
+  versión o protección técnica, salvo en la medida permitida por una norma
+  imperativa.
+- Comercializar, vender o monetizar directa o indirectamente el juego o
+  cualquier obra derivada del mismo.
+- Presentar el código, el juego o una versión derivada como una creación
+  propia.
+- Utilizar el código, la historia, los diálogos, los personajes o los demás
+  contenidos protegidos para entrenar, ajustar o evaluar modelos o sistemas
+  generativos cuando dicho uso requiera autorización.
+
+Estas restricciones no pretenden limitar los derechos reconocidos
+obligatoriamente por la legislación aplicable.
+
+1.5. Programas de ordenador y excepciones legales
+
+La autorización para consultar y estudiar el programa no permite reproducirlo,
+distribuirlo, comunicarlo públicamente, transformarlo ni incorporarlo a otro
+software.
+
+Esta licencia no pretende impedir:
+
+- Los actos necesarios para que el usuario legítimo utilice el programa
+  conforme a su finalidad.
+- La realización de una copia de seguridad cuando resulte necesaria para
+  dicho uso.
+- La observación, el estudio o la verificación del funcionamiento del
+  programa dentro de los límites legales.
+- Los actos indispensables para obtener información necesaria para la
+  interoperabilidad cuando se cumplan los requisitos establecidos por la ley.
+
+1.6. Aviso sobre música de terceros
+
+La canción «My Gal», interpretada por Niklas Gabrielsson with Martin
+Landström & His Orchestra, y cualquier otra música o contenido de terceros
+que pueda aparecer en el juego están sujetos a los derechos de sus
+respectivos autores, intérpretes, productores, licenciantes o titulares.
+
+El archivo de audio de dicha canción no se distribuye en este repositorio
+público.
+
+«Piso 13» es un proyecto gratuito y sin ánimo de lucro que acredita a los
+artistas cuando corresponde. El juego también cuenta con un «MODO STREAMER»
+que sustituye determinadas pistas por música generada mediante el sistema
+de audio del juego.
+
+Las comunicaciones relacionadas con derechos de terceros pueden enviarse a
+piso13@janiito.com.
+
+------------------------------------------------------------------------
+2. ENGLISH — TERMS OF USE, INTELLECTUAL PROPERTY & LICENSE
+------------------------------------------------------------------------
+
+2.1. Ownership
+
+“Piso 13” includes its source and compiled code, programs, data files,
+story, script, Spanish, Catalan and English dialogue, characters, the
+“Residencia Aurora” setting, pixel-art visuals, interface, logos, icons,
+sound effects and music.
+
+The original elements created by Jan Lamarca under the name Janiito Studio
+are protected by applicable intellectual-property laws.
+
+Third-party content, including certain music, sounds, fonts, libraries,
+assets or licensed materials, remains the property of its respective
+authors, owners or licensors.
+
+The fact that “Piso 13” is free or non-commercial does not remove or reduce
+the rights of third parties.
+
+This repository is not released under an open-source or free-software
+license.
+
+2.2. Trademarks, Names and Logos
+
+The names “Piso 13”, “Janiito Studio” and “Jan Lamarca”, together with
+their logos, icons and other distinctive signs, are reserved for their
+respective owners.
+
+No right or license is granted to use these trademarks, names, logos or
+distinctive signs outside the uses permitted by this document.
+
+Files under `/assets/images/` and `/assets/icons/` may contain materials
+owned by Jan Lamarca, Janiito Studio or third parties.
+
+2.3. Permitted Use of This Public Repository
+
+This public repository is provided for:
+
+- Technical inspection, personal study and educational reference.
+- Observation and verification of the program’s functioning within the
+  limits permitted by law.
+- Bug reporting, feedback and issue tracking through GitHub Issues or
+  piso13@janiito.com.
+- Verification of the version officially published at
+  https://piso-13.janiito.com.
+- Linking to the demo or official websites from social media, websites,
+  videos or livestreams, provided that no false relationship or
+  authorization is suggested.
+- Quotations, reviews, criticism, teaching or research where permitted by
+  applicable law and subject to its requirements.
+
+This permission is personal, limited, non-exclusive and non-transferable.
+It does not grant or assign any exploitation rights.
+
+2.4. Restrictions
+
+Without prior written permission from the relevant rights holder, you may
+NOT:
+
+- Copy, reproduce, publish, redistribute or make the game, demo, code or
+  files available to the public, in whole or in part.
+- Host, mirror, re-upload, clone or publish copies of the game on other
+  domains, servers, repositories, web portals or digital stores.
+- Incorporate the code, files, dialogue, assets or substantial parts of the
+  project into another project, product, application, game or software.
+- Adapt, transform or create derivative works from the project, except where
+  permitted by law or authorized.
+- Embed or frame the game through `<iframe>`, `<embed>` or equivalent
+  systems on websites outside `janiito.com` and its subdomains
+  (`*.janiito.com`).
+- Remove, conceal or alter copyright notices, credits, logos, watermarks,
+  demo notices or build identifiers.
+- Circumvent, disable or manipulate domain, integrity, version or technical
+  protection checks, except to the extent permitted by a mandatory rule of
+  law.
+- Sell, commercially exploit or monetize the game or any derivative work.
+- Present the code, game or any derivative version as your own creation.
+- Use the code, story, dialogue, characters or other protected content to
+  train, fine-tune or evaluate generative models or systems where such use
+  requires authorization.
+
+These restrictions do not intend to limit rights mandatorily granted by
+applicable law.
+
+2.5. Computer Programs and Statutory Exceptions
+
+Permission to inspect and study the program does not authorize its
+reproduction, distribution, public communication, transformation or
+incorporation into other software.
+
+This license does not intend to prevent:
+
+- Acts necessary for the legitimate user to use the program for its
+  intended purpose.
+- The making of a backup copy where necessary for that use.
+- The observation, study or verification of the program’s functioning
+  within the limits of applicable law.
+- Acts indispensable to obtain information necessary for interoperability
+  where the legal requirements are satisfied.
+
+2.6. Third-Party Music Notice
+
+The song “My Gal”, performed by Niklas Gabrielsson with Martin Landström &
+His Orchestra, and any other third-party music or content that may appear
+in the game are subject to the rights of their respective authors,
+performers, producers, licensors or rights holders.
+
+The audio file for that song is not distributed in this public repository.
+
+“Piso 13” is a free, non-commercial project that credits the artists where
+appropriate. The game also includes a built-in “STREAMER MODE” that
+replaces certain tracks with music generated through the game’s audio
+system.
+
+Rights-related notices may be sent to piso13@janiito.com.

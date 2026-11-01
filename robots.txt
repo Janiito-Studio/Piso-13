@@ -1,0 +1,7 @@
+# Piso 13 — DEMO PÚBLICA.
+# Es una versión de prueba y no debe competir en buscadores con el juego
+# completo: todo el contenido oficial vive en https://janiito.com/piso13
+User-agent: *
+Disallow: /
+
+Sitemap: https://janiito.com/piso13

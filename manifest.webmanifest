@@ -1,0 +1,19 @@
+{
+  "name": "Piso 13 — Demo pública",
+  "short_name": "PISO 13 DEMO",
+  "description": "Versión de prueba de Piso 13: solo se puede jugar hasta la planta 1. El juego completo está en janiito.com/piso13.",
+  "lang": "es",
+  "start_url": ".",
+  "scope": ".",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "categories": ["games"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

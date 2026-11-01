@@ -1,0 +1,160 @@
+/* ---------------------------------------------------------------------------
+   PISO 13 · DEMO PÚBLICA · avisos de versión de prueba
+   Este CSS solo se carga en la demo: el juego completo no lo necesita.
+   --------------------------------------------------------------------------- */
+
+#p13d-banner {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: calc(100vw - 20px);
+  padding: 5px 9px;
+  border: 1px solid #35301f;
+  background: rgba(7, 7, 6, 0.82);
+  color: #b9b3a0;
+  font: 10px/1.2 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  pointer-events: none;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.55);
+  animation: p13d-fade 0.6s ease-out both;
+}
+#p13d-banner .p13d-dot {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  background: #d8b25a;
+  box-shadow: 0 0 7px #d8b25a;
+  animation: p13d-pulse 2.4s ease-in-out infinite;
+}
+#p13d-banner .p13d-tag { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#p13d-banner .p13d-cta {
+  pointer-events: auto;
+  flex: 0 0 auto;
+  padding-left: 8px;
+  border-left: 1px solid #35301f;
+  color: #e6d7a4;
+  text-decoration: none;
+}
+#p13d-banner .p13d-cta:hover { color: #ffe9ad; }
+
+.p13d-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(3, 3, 3, 0.9);
+  backdrop-filter: blur(1.5px);
+  animation: p13d-fade 0.35s ease-out both;
+  overflow: auto;
+}
+.p13d-overlay::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.028) 0 1px, transparent 1px 3px);
+}
+.p13d-overlay-block { background: rgba(3, 3, 3, 0.97); }
+
+.p13d-card {
+  position: relative;
+  width: min(520px, 100%);
+  padding: 26px 26px 20px;
+  border: 1px solid #3a3324;
+  background: #080807;
+  box-shadow: 0 0 0 1px #000, 0 24px 70px rgba(0, 0, 0, 0.8), inset 0 0 60px rgba(216, 178, 90, 0.035);
+  color: #cfcfc2;
+  font: 13px/1.65 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  text-align: center;
+}
+.p13d-card-block { border-color: #4a2a22; box-shadow: 0 0 0 1px #000, 0 24px 70px rgba(0, 0, 0, 0.85), inset 0 0 60px rgba(168, 60, 40, 0.05); }
+
+.p13d-kicker {
+  color: #5f5a4a;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.p13d-h1 {
+  margin: 8px 0 14px;
+  color: #d8b25a;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-shadow: 0 0 22px rgba(216, 178, 90, 0.22);
+}
+.p13d-card-block .p13d-h1 { color: #d2705a; text-shadow: 0 0 22px rgba(210, 112, 90, 0.22); }
+
+.p13d-p {
+  margin: 0 0 8px;
+  color: #cfcfc2;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.p13d-p.p13d-dim { color: #8a8a80; }
+.p13d-card .p13d-p.p13d-dim { margin-bottom: 16px; }
+
+.p13d-btn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 9px 16px;
+  border: 1px solid #4a4231;
+  background: #0e0e0c;
+  color: #cfc9b6;
+  font: 11px/1 ui-monospace, Menlo, Consolas, monospace;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.p13d-btn:hover { background: #171610; border-color: #7a6a41; color: #ffe9ad; }
+.p13d-btn-main {
+  display: block;
+  margin: 10px auto 14px;
+  padding: 12px 18px;
+  border-color: #6f5c33;
+  background: #14120c;
+  color: #f0d89a;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.p13d-btn-main:hover { background: #1d1a10; border-color: #b69655; }
+.p13d-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+.p13d-foot {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #211f19;
+  color: #55534a;
+  font-size: 9px;
+  letter-spacing: 1.6px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+@keyframes p13d-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes p13d-pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+@media (max-width: 520px) {
+  .p13d-card { padding: 20px 16px 16px; }
+  .p13d-h1 { font-size: 17px; letter-spacing: 3px; }
+  .p13d-p { font-size: 11px; letter-spacing: 1px; }
+  #p13d-banner { font-size: 9px; letter-spacing: 1.5px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #p13d-banner, .p13d-overlay, #p13d-banner .p13d-dot { animation: none; }
+}
